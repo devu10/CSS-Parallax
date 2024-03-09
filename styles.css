@@ -65,8 +65,8 @@ header {
 }
 
 .nav-bar {
-  background: black;
-  color: orangered;
+  background: rgba(0, 0, 5, 0.932);
+  color: rgb(218, 203, 203);
   grid-area: nav-bar;
 
   display: flex;
@@ -85,14 +85,12 @@ header {
 }
 
 section {
-  background-color: white;
+  background-color: rgba(209, 217, 224, 0.562);
   grid-area: section;
   /* padding: 0 10vw; */
 
   display: flex;
   flex-direction: column;
-
-  position: relative;
 }
 article {
   padding: 0 10vw;
@@ -100,18 +98,17 @@ article {
 
 .img1 {
   background: url(./assets/IMG_20231119_140743.jpg);
-  height: 40vh;
-  /* position: fixed; */
+  height: 60vh;
 }
 
 .img2 {
   background: url(./assets/IMG_20231119_141536.jpg);
-  height: 40vh;
+  height: 60vh;
 }
 
 .img3 {
   background: url(./assets/IMG_20231119_141600.jpg);
-  height: 40vh;
+  height: 60vh;
 }
 
 .content div {
@@ -121,6 +118,8 @@ article {
 
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .parabox {
